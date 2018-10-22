@@ -17,8 +17,7 @@ function currentLine(line) {
     return lineString + " empty."
   } else {
     for (var i = 0; i < line.length; i++) {
-      
+      lineString = lineString + ''
     }
   }
-  return lineString + ":"
 }

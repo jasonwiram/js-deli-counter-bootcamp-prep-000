@@ -20,5 +20,5 @@ function currentLine(line) {
       
     }
   }
-  return 
+  return lineString + ":"
 }

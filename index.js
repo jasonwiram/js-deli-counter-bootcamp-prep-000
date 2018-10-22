@@ -17,7 +17,7 @@ function currentLine(line) {
     return lineString + " empty."
   } else {
     for (var i = 0; i < line.length; i++) {
-      return lineString = lineString + `${i+1}. ${line[i]}`
+      lineString = lineString + `${i+1}. ${line[i]}`
     }
   }
 }
